@@ -1,10 +1,14 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Home from './Home/Home'
+import Course from './components/Course'
 
 
 function App() {
   return (
-    <Navbar/>
+  <>
+    <Home/>
+    <Course/>
+  </>
   )
 }
 
